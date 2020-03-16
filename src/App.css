@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans&display=swap');
+
+#myModal {
+  top: auto;
+  bottom: auto;
+  right: auto;
+  left: auto;
+  padding-bottom: 1em;
+}
+#topBack {
+  /* background: linear-gradient(
+    90deg,
+    rgba(121, 63, 150, 1) 0%,
+    rgba(200, 67, 122, 1) 51%,
+    rgba(212, 67, 58, 1) 100%
+  ); */
+  padding: 1.5em;
+}
+#actions {
+  display: flex;
+  flex-direction: row;
+}
+#actionIcon {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  padding: 2px 8px;
+}
+#actionIcon > i {
+  margin-right: 2px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.hidden {
+  visibility: hidden;
+}
+#title {
+  font-family: 'Lobster', cursive;
+  font-size: 4rem;
+  color: #ffffff;
+}
+#userGreeting {
+  /* border-top: 0.1em solid greenyellow;
+  border-bottom: 0.1em solid greenyellow; */
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+.userName {
+  display: flex;
+  margin: 0.5em 0;
+  font-size: 1.4rem;
+}
+.btn {
+  display: flex;
+  margin: 0.5em 0;
+}
+.userDiv {
+  padding: 8px 2%;
+  font-family: 'Muli', sans-serif;
+  font-size: 1.3rem;
+  align-items: center;
+}
+.card-content {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 1.4rem;
+  padding: 1.5rem 0.8rem;
+}
+.logOut {
+  margin-right: 0rem;
+}
+.control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.addPost {
+  min-width: 30rem;
+  max-width: 40rem;
+}
+#postBtn {
+  margin-top: 1.2em;
+  /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
+}
+.feedFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 1%;
+  padding: 2%;
+}
+.card-header-title {
+  font-weight: 600;
+}
+.feed {
+  justify-content: space-between;
+  align-items: center;
+}
+.notification {
+  padding-right: 1rem;
+}
+.card {
+  height: fit-content;
+  margin: 2% 1%;
+  min-width: 15rem;
+  max-width: 20rem;
+}
+
+.message {
+  margin-top: 2rem;
+  min-width: 30%;
+  padding: 1em;
+  border: 1px solid #78d3b4;
+}
+.divHeight {
+  height: 27rem;
+  overflow: hidden;
+}
+
+.hr {
+  width: 100vw;
+  background-color: #ffffff;
+  height: 2px;
+  margin: 0;
+}
+
+#loginControlLinks {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 3rem;
+  background: #ffffff;
+  border-bottom: #7272726b 2px solid;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+#links {
+  color: #d3433b;
+}
+.deleteFeed > svg {
+  fill: white;
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 768px) {
+  .rowToColumn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+#replyButton {
+  display: flex;
+  height: auto;
+  width: auto;
+}
